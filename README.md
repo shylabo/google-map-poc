@@ -1,3 +1,9 @@
+# Overview
+
+This app will display a map based on the address entered in the form.
+
+## npm install
+
 ```
 npm install axios
 npm install --save-dev @types/googlemaps
@@ -15,4 +21,10 @@ npm install --save-dev @types/googlemaps
 
 ```
 const GOOGLE_API_KEY = 'YOURAPIKEY';
+```
+
+## run
+
+```
+npm start
 ```

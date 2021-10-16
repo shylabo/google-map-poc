@@ -3,6 +3,7 @@ import axios from 'axios';
 const form = document.querySelector('form')!;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
 
+// Set your own GOOGLE API KEY
 const GOOGLE_API_KEY = 'YOURAPIKEY';
 
 type GoogleGeocodingResponse = {
